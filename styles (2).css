@@ -1,0 +1,52 @@
+body{
+    background-color: grey;
+    align-content: center;
+    margin: 0;
+}
+
+header{
+    background-color: white;
+    padding: 5px;
+}
+
+header > h1{
+margin: 0;
+}
+div{
+    box-sizing: border-box;
+}
+
+.Post {
+    margin-top: 10px;
+    background-color: white;
+}
+
+div.Pagina {
+    width: 600px;
+    margin: auto;
+}
+
+div.Post img {
+    width:100%;
+}
+
+div.Post h2, div.Post p, div.Post span {
+    padding: 10px;
+}
+div.Post .Post-header{
+display: inline-block;
+width: 80%;
+}
+div.Post .Post-header-fecha{
+    display: inline-block;
+    width: 18%;
+    height: 20px;
+    color: gray;
+    }
+    
+
+div.Post span {
+    float: right;
+
+}
+
